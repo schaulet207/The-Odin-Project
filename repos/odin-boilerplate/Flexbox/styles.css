@@ -1,0 +1,56 @@
+/* styles.css */
+
+/* --Options for Flex--
+flex-grow
+flex-shrink
+flex-basis */
+
+
+/* flex-grow example  */
+
+/*
+.flex-container {
+    display: flex;
+  }
+  
+  .flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    flex: 1 1 0%;
+  }
+  
+  .flex-container .two {
+    flex: 2 1 0%;
+  }
+  */
+
+  /* flex-shrink example */
+  
+/* this selector selects all divs inside of .flex-container */
+/*
+.flex-container {
+    display: flex;
+  }
+  
+  .flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    width: 250px;
+    flex: 1 1 auto;
+  }
+  
+  .flex-container .two {
+    flex-shrink: 0;
+  }
+
+  /* if you shrink your browser you will notice that box two never gets smaller */
+
+  /* flex-basis example 
+
+  flex: auto;
+  */
+  
+
+
